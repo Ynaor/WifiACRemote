@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AC Remote Control</title>
+</head>
+<body>
+    <header>
+        <h1>AC Remote Control</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <h2>AC Controls</h2>
+            <button id="powerButton" disabled>Turn On</button>
+            <input type="range" id="temperatureSlider" min="16" max="30" step="1" value="20">
+            <label for="temperatureSlider">Temperature: <span id="temperatureValue">20°C</span></label>
+            <button id="fanSpeedUpButton" disabled>+</button>
+            <button id="fanSpeedDownButton" disabled>-</button>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
+    
